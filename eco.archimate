@@ -1,14 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="ECO" id="id-a407e9a583c04a79baf735fd445996db" version="5.0.0">
-  <folder name="Strategy" id="id-75a61b25aed34f50818b3e9b2da81855" type="strategy"/>
-  <folder name="Business" id="id-019e700b8f9842b7b76d3137e10f385c" type="business"/>
-  <folder name="Application" id="id-ecbe4f5ca4fc466d812736bf665eedd2" type="application"/>
-  <folder name="Technology &amp; Physical" id="id-ac317f8a1f1c42b68e1fadb3c48abc9b" type="technology"/>
-  <folder name="Motivation" id="id-d1de343fb5c14b5d8cba467e34ce0df0" type="motivation"/>
-  <folder name="Implementation &amp; Migration" id="id-806f0a050f6d444a85a46fb65d2c7464" type="implementation_migration"/>
-  <folder name="Other" id="id-aeb447fa04e945b39d1a8694cd75e0e4" type="other"/>
-  <folder name="Relations" id="id-615d9ef4a29148b7919547cd34761be4" type="relations"/>
+  <folder name="Strategy" id="id-75a61b25aed34f50818b3e9b2da81855" type="strategy">
+    <element xsi:type="archimate:Resource" name="Budget" id="id-18800170e1404012a417f59da52fc6d3"/>
+    <element xsi:type="archimate:CourseOfAction" name="Green Building Practices" id="id-bcf42d866fc14507bcaa7e8af141a5a6"/>
+    <element xsi:type="archimate:Resource" name="Materials" id="id-12593568fb2e4d8585424dad6845ab90"/>
+    <element xsi:type="archimate:Capability" name="Sustainable House Building" id="id-8f4e18762a0d49299e90e0e11a4a2ffb"/>
+    <element xsi:type="archimate:Resource" name="Rain " id="id-f12fcd25f6bc44c3a9d942cb7c485b09"/>
+  </folder>
+  <folder name="Business" id="id-019e700b8f9842b7b76d3137e10f385c" type="business">
+    <folder name="Water Harvesting System" id="id-21abfc5f28e34224b303e9abe7302bbf">
+      <element xsi:type="archimate:BusinessEvent" name="Maintenace" id="id-4897265e450d44c4997a62057d333768"/>
+      <element xsi:type="archimate:BusinessEvent" name="Disposal" id="id-24d1b0f6b8b14983918b90febb747fac"/>
+      <element xsi:type="archimate:BusinessService" name="Daily Operation" id="id-ff12c1d5f244438baceeb4e20a4a979d"/>
+    </folder>
+    <element xsi:type="archimate:BusinessRole" name="Home Owner" id="id-4067189a9f9342c8b7cb90996d6f04f0"/>
+    <element xsi:type="archimate:BusinessActor" name="Construction Company " id="id-f6259b745d0a4e268c62ff5ccb973624"/>
+    <element xsi:type="archimate:BusinessActor" name="Maintenance Team" id="id-6cac953f3a49461f97cb5d21ff123ca5"/>
+  </folder>
+  <folder name="Application" id="id-ecbe4f5ca4fc466d812736bf665eedd2" type="application">
+    <folder name="Water Harvesting System" id="id-c9a4b6e5e6c64345a0cd74250171368a">
+      <element xsi:type="archimate:ApplicationInteraction" name="Water control panel" id="id-c3b4660dcda04f2b8cabd40a3e514f1f"/>
+      <element xsi:type="archimate:ApplicationService" name="Water Monitoring System" id="id-a8ba23f43a9446e0b863f2f02e7efa9c"/>
+      <element xsi:type="archimate:ApplicationInterface" name="Water control system" id="id-f525e4e2df6b43c9b11e454d7c13fd1a"/>
+    </folder>
+  </folder>
+  <folder name="Technology &amp; Physical" id="id-ac317f8a1f1c42b68e1fadb3c48abc9b" type="technology">
+    <folder name="Water Harvesting System" id="id-69e5cfff92974ebca187b6d135aa94aa">
+      <element xsi:type="archimate:Equipment" name="Gutters" id="id-d88265f8f93f4527a6e160eb7462cf9d"/>
+      <element xsi:type="archimate:Node" name="Water overfull sensor" id="id-b3d25f4e1257485ab7b553fa19448eb9"/>
+      <element xsi:type="archimate:Path" name="Water Distribution Network" id="id-bf34eeb3be714f9ea4a36dfdb4ba854f"/>
+      <element xsi:type="archimate:Device" name="Filtration Units" id="id-b7bf68eb6e6345259b8ff38a7aa5f98f"/>
+      <element xsi:type="archimate:Equipment" name="Storage Tank" id="id-681d34dbee4f4e8badfd3738764b2c46"/>
+    </folder>
+  </folder>
+  <folder name="Motivation" id="id-d1de343fb5c14b5d8cba467e34ce0df0" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Home Owner" id="id-af28a97552ea412eb10bcb95540aa880"/>
+    <element xsi:type="archimate:Stakeholder" name="Local Authorities" id="id-051ad26b683c4548a312c959ab01fb4d"/>
+    <element xsi:type="archimate:Driver" name="Sustainability" id="id-c08cafd0335541eaacd0f622a162db87"/>
+    <element xsi:type="archimate:Driver" name="Regulatory Compliance" id="id-715e69e9ac9f41578fe2b56949fae6b0"/>
+    <element xsi:type="archimate:Assessment" name="Environmental Impact" id="id-69ae8f1cbac84c1eb499958d3e5ab7d1"/>
+    <element xsi:type="archimate:Goal" name="Low Einvironmental impact" id="id-78edb12a248e4c92ba8baad49155d94c"/>
+    <element xsi:type="archimate:Goal" name="High Energie Efficiency" id="id-d46a99649f9d4332baca7940d50b4f20"/>
+    <element xsi:type="archimate:Requirement" name="Renewable Energy Sources" id="id-f097717eceec46d88240a3311a912fae"/>
+    <element xsi:type="archimate:Requirement" name="Efficient Water Management" id="id-990f70d9c34e4bf0a2bed0358bb9e935"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-806f0a050f6d444a85a46fb65d2c7464" type="implementation_migration">
+    <element xsi:type="archimate:Gap" name="Current Capabilities vs. Desired Capabilities" id="id-b8343d1effb744d68de1f0211d15bc0b"/>
+    <element xsi:type="archimate:Plateau" name="Initial State " id="id-02717de29aa94100a361f2b906c518d0"/>
+    <element xsi:type="archimate:Plateau" name="Dveloped State" id="id-526eda5efd074af08cb9593917a29e7e"/>
+    <element xsi:type="archimate:Deliverable" name="Completed House" id="id-fa72a289d1e44791acb6b05344942b1c"/>
+    <element xsi:type="archimate:Deliverable" name="Maintenance Schedule" id="id-7becc366437c4f94a4083fb214a20b4b"/>
+    <element xsi:type="archimate:WorkPackage" name="Requirement &amp; Architecture" id="id-e03c977f31a945b7b34f416a0416426b"/>
+    <element xsi:type="archimate:WorkPackage" name="Design phase" id="id-bc57fedbe04149439d9b2a03a9fa5840"/>
+    <element xsi:type="archimate:WorkPackage" name="Construction Phase" id="id-eef2f134ff894c33838d9a8657f3d406"/>
+    <element xsi:type="archimate:WorkPackage" name="Integration, Test and Verification" id="id-643b993e5b164c7487923055524b87f7"/>
+    <element xsi:type="archimate:WorkPackage" name="Transition &amp; Validation" id="id-68681238a6b349f4a361d366c67d3b15"/>
+    <element xsi:type="archimate:WorkPackage" name="Operation &amp; Maintenance" id="id-24b0d67b24f249cc8f178e4004821b49"/>
+  </folder>
+  <folder name="Other" id="id-aeb447fa04e945b39d1a8694cd75e0e4" type="other">
+    <folder name="Systems" id="id-26c7d5f476634111b9a577307c6d6183">
+      <element xsi:type="archimate:Grouping" name="Energy System" id="id-18314a28605b4bf8b8fffdc17ccc54dc"/>
+      <element xsi:type="archimate:Grouping" name="HVAC System" id="id-06eb7602dacb46c7910c814ed3d7efce"/>
+      <element xsi:type="archimate:Grouping" name="Smart Home System" id="id-2fb22d5e61364a1ea74e3446651af4ed"/>
+      <element xsi:type="archimate:Grouping" name="Water Harvesting System" id="id-ada5135d454d46718e898300865826e7"/>
+    </folder>
+    <folder name="Processes" id="id-b5bd911bf4b84c40994bd30ab3b650d1"/>
+    <element xsi:type="archimate:Location" name="House site" id="id-01df4aa36668497191981016ba6a6205"/>
+    <element xsi:type="archimate:Junction" name="Junction" id="id-1bb7ec3cf80f4c39bd08fa7ced7b0021"/>
+  </folder>
+  <folder name="Relations" id="id-615d9ef4a29148b7919547cd34761be4" type="relations">
+    <folder name="Water Harvesting System" id="id-3cd8898b2b8345009da8f60661cb3634"/>
+    <element xsi:type="archimate:AssignmentRelationship" id="id-b47909db98f945498dd21a23fb7a6fad" source="id-ada5135d454d46718e898300865826e7" target="id-4067189a9f9342c8b7cb90996d6f04f0"/>
+    <element xsi:type="archimate:TriggeringRelationship" id="id-791f2c3a0923465fa23a93249faad91d" source="id-4067189a9f9342c8b7cb90996d6f04f0" target="id-c3b4660dcda04f2b8cabd40a3e514f1f"/>
+    <element xsi:type="archimate:AggregationRelationship" id="id-e21e760a50a94468ab6a46de75cab12a" source="id-ada5135d454d46718e898300865826e7" target="id-f12fcd25f6bc44c3a9d942cb7c485b09"/>
+    <element xsi:type="archimate:CompositionRelationship" id="id-77835d53acc74c64851a4c19abc7393a" source="id-ada5135d454d46718e898300865826e7" target="id-b7bf68eb6e6345259b8ff38a7aa5f98f"/>
+  </folder>
   <folder name="Views" id="id-605747901aa942aa84496651ec97890f" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-b087619009184e08bf0ed1a75c1ac68c"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Water Harvesting System" id="id-0e70da58d50c4b91ba3e854adc1a8a08" connectionRouterType="2">
+      <child xsi:type="archimate:DiagramObject" id="id-a76efa1e2e6b4ff29601d552b635acea" textAlignment="1" archimateElement="id-ada5135d454d46718e898300865826e7">
+        <bounds x="84" y="60" width="1141" height="673"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-9ea3514088dc45c882d2287e53de96a4" source="id-a76efa1e2e6b4ff29601d552b635acea" target="id-d859c4c213e54d84b3589f25f85a1209" archimateRelationship="id-b47909db98f945498dd21a23fb7a6fad"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-99d1af813df749949fea8be200d5df19" source="id-a76efa1e2e6b4ff29601d552b635acea" target="id-096d0d1bc6f9420e97074ddf88a95bb3" archimateRelationship="id-e21e760a50a94468ab6a46de75cab12a"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-f22ca68bac744059aeab83092f28a805" source="id-a76efa1e2e6b4ff29601d552b635acea" target="id-66beefe0425541c1b120250b61e7e47b" archimateRelationship="id-77835d53acc74c64851a4c19abc7393a"/>
+        <child xsi:type="archimate:DiagramObject" id="id-d859c4c213e54d84b3589f25f85a1209" targetConnections="id-9ea3514088dc45c882d2287e53de96a4" archimateElement="id-4067189a9f9342c8b7cb90996d6f04f0">
+          <bounds x="864" y="600" width="120" height="55"/>
+          <sourceConnection xsi:type="archimate:Connection" id="id-592bec461b9f409a93afe8b852b2e044" source="id-d859c4c213e54d84b3589f25f85a1209" target="id-afa01c85555f406e8f331d7efa90d6c9" archimateRelationship="id-791f2c3a0923465fa23a93249faad91d"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-096d0d1bc6f9420e97074ddf88a95bb3" targetConnections="id-99d1af813df749949fea8be200d5df19" archimateElement="id-f12fcd25f6bc44c3a9d942cb7c485b09">
+          <bounds x="288" y="48" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-51211072aeb14e06a7ce48b1f0d2b918" archimateElement="id-f525e4e2df6b43c9b11e454d7c13fd1a">
+          <bounds x="852" y="252" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-f75da8c5ca0a445589dcae496ea2ae8f" archimateElement="id-bf34eeb3be714f9ea4a36dfdb4ba854f">
+          <bounds x="300" y="456" width="120" height="55"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="id-66beefe0425541c1b120250b61e7e47b" targetConnections="id-f22ca68bac744059aeab83092f28a805" archimateElement="id-b7bf68eb6e6345259b8ff38a7aa5f98f">
+          <bounds x="300" y="564" width="120" height="55"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-c273f96c832946d7b64ecb81a979bd65" archimateElement="id-681d34dbee4f4e8badfd3738764b2c46">
+        <bounds x="312" y="288" width="289" height="118"/>
+        <child xsi:type="archimate:DiagramObject" id="id-76181428e9894df9ad00f3b69b6b6c29" archimateElement="id-b3d25f4e1257485ab7b553fa19448eb9">
+          <bounds x="156" y="48" width="121" height="61"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-46485acb3d8b4ac294115e231dafbdf2" archimateElement="id-d88265f8f93f4527a6e160eb7462cf9d">
+        <bounds x="372" y="192" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-afa01c85555f406e8f331d7efa90d6c9" targetConnections="id-592bec461b9f409a93afe8b852b2e044" archimateElement="id-c3b4660dcda04f2b8cabd40a3e514f1f">
+        <bounds x="948" y="534" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-d10c2049bc1d4cd6b9e2518033acb1f5" archimateElement="id-a8ba23f43a9446e0b863f2f02e7efa9c">
+        <bounds x="801" y="534" width="120" height="55"/>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Integration Overview" id="id-fe6e7374f27242e8af23971493d7c04f"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Disposal Strategy" id="id-a821a93f43134beb89369f26b9576d35"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Maintenace Schedule" id="id-6220dac9a39b4586a7a72c80b146050d"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Physical layout" id="id-006de9665632442f9f8477ab8fc4a8fe"/>
   </folder>
 </archimate:model>
