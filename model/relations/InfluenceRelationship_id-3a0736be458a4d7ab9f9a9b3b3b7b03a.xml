@@ -1,7 +1,8 @@
 <archimate:InfluenceRelationship
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    id="id-3a0736be458a4d7ab9f9a9b3b3b7b03a">
+    id="id-3a0736be458a4d7ab9f9a9b3b3b7b03a"
+    strength="++">
   <source
       xsi:type="archimate:BusinessProcess"
       href="BusinessProcess_id-602b913ff0634c558d02215f7b17c1fe.xml#id-602b913ff0634c558d02215f7b17c1fe"/>
