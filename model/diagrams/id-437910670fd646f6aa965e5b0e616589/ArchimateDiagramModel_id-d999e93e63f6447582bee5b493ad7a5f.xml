@@ -1,7 +1,7 @@
 <archimate:ArchimateDiagramModel
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
-    name="Energy monitoring application "
+    name="Energy monitoring Layered view"
     id="id-d999e93e63f6447582bee5b493ad7a5f">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
