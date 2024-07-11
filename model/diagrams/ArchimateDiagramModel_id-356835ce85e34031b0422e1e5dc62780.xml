@@ -2,7 +2,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="System Decomposition"
-    id="id-356835ce85e34031b0422e1e5dc62780">
+    id="id-356835ce85e34031b0422e1e5dc62780"
+    viewpoint="migration">
   <children
       xsi:type="archimate:DiagramModelGroup"
       id="id-667d0a9431d14cbabbc07c336793793d"
