@@ -1063,9 +1063,9 @@
         source="id-690a4b8bbf2f417286601aa9772f8116"
         target="id-7e0eaa3404c940a8ad0a1e3a5911a8a1">
       <bendpoints
-          startX="342"
+          startX="354"
           startY="12"
-          endX="-7"
+          endX="5"
           endY="-86"/>
       <archimateRelationship
           xsi:type="archimate:TriggeringRelationship"
@@ -1145,7 +1145,7 @@
           href="TriggeringRelationship_id-00e4e5251ef345d29bddbe823cd6e7a7.xml#id-00e4e5251ef345d29bddbe823cd6e7a7"/>
     </sourceConnections>
     <bounds
-        x="1044"
+        x="1056"
         y="223"
         width="15"
         height="15"/>
