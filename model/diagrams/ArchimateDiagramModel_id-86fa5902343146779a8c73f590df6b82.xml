@@ -1219,7 +1219,7 @@
     </sourceConnections>
     <bounds
         x="12"
-        y="433"
+        y="422"
         width="433"
         height="246"/>
     <children
@@ -1333,10 +1333,10 @@
           source="id-1fe151bfe9b84379a4916fddcc093258"
           target="id-94758361621a4b049dca2863d3b0c4e8">
         <bendpoints
-            startX="2"
-            startY="49"
+            startX="-7"
+            startY="36"
             endX="144"
-            endY="7"/>
+            endY="-6"/>
         <archimateRelationship
             xsi:type="archimate:AssociationRelationship"
             href="AssociationRelationship_id-65311a6b172d45da8d78999249b14176.xml#id-65311a6b172d45da8d78999249b14176"/>

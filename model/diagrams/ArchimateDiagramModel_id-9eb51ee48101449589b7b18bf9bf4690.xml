@@ -482,7 +482,7 @@
       targetConnections="id-877583afcaf14fdf891a5a1f7d92e9f4">
     <bounds
         x="517"
-        y="348"
+        y="324"
         width="120"
         height="55"/>
     <archimateElement
@@ -672,6 +672,7 @@
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
         id="id-0c65e0fe892e4f4e9734799b3d04e487"
+        textPosition="2"
         source="id-770cc2692270409aa9887310c1963a68"
         target="id-908bec0c660d4ee283dc8d9a17fbc200">
       <bendpoints
