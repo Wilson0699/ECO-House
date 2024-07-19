@@ -194,8 +194,8 @@
           source="id-2ed7f14a8cd14383a905a47a98768403"
           target="id-a11d241b75a44e0daf605b2263da2841">
         <bendpoints
-            startX="-84"
-            startY="-12"
+            startX="-78"
+            startY="-9"
             endX="5"
             endY="-60"/>
         <archimateRelationship
