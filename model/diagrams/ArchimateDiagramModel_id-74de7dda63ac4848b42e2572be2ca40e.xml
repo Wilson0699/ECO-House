@@ -63,16 +63,4 @@
         xsi:type="archimate:Gap"
         href="Gap_id-4721d51b12af4748b68ac13fbc4652fd.xml#id-4721d51b12af4748b68ac13fbc4652fd"/>
   </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-2d4e8a0bb4e24bba920537f0a87fd24b">
-    <bounds
-        x="444"
-        y="204"
-        width="120"
-        height="55"/>
-    <archimateElement
-        xsi:type="archimate:BusinessActor"
-        href="BusinessActor_id-d244e60d96614a4eb15b32fbc278ed25.xml#id-d244e60d96614a4eb15b32fbc278ed25"/>
-  </children>
 </archimate:ArchimateDiagramModel>
